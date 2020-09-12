@@ -14,8 +14,7 @@ class Test_001_Login:
 
     logger = LogGen.loggen()
 
-
-
+    @pytest.mark.regression
     def test_homePageTitle(self, setup):
         self.logger.info("*******************Test_001_Login************")
         self.logger.info("*******************verify home page title************")
